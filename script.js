@@ -15,7 +15,7 @@ function predictPrice() {
         return;
     }
 
-    const API_URL = 'https://house-price-api.onrender.com/predict'; 
+    const API_URL = 'https://house-price-api-efse.onrender.com/predict'; 
 
     fetch(API_URL, {
         method: 'POST',
