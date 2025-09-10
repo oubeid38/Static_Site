@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Prédiction de Prix de Maison</title>
+</head>
+<body>
+    <h1>Entrez les caractéristiques de la maison</h1>
+    <form id="house-form">
+        <label>Revenu médian (MedInc):</label><input type="number" id="MedInc" required><br>
+        <label>Âge de la maison (HouseAge):</label><input type="number" id="HouseAge" required><br>
+        <label>Nombre moyen de pièces (AveRooms):</label><input type="number" id="AveRooms" required><br>
+        <label>Nombre moyen de chambres (AveBedrms):</label><input type="number" id="AveBedrms" required><br>
+        <label>Population (Population):</label><input type="number" id="Population" required><br>
+        <label>Occupation moyenne (AveOccup):</label><input type="number" id="AveOccup" required><br>
+        <label>Latitude:</label><input type="number" id="Latitude" required><br>
+        <label>Longitude:</label><input type="number" id="Longitude" required><br>
+        <button type="button" onclick="predictPrice()">Prédire le prix</button>
+    </form>
+    <div id="result"></div>
+    <script src="C:\Users\USER\Desktop\Industrialisation\static_site\script.js"></script>
+</body>
+</html>
